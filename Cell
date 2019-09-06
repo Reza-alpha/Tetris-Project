@@ -6,13 +6,7 @@ public class Cell {
 	private final Point DEFAULT_CELL_POINT = new Point(0, 0);
 	private final Object DEFAULT_CELL_VALUE = Color.RED;
 
-	private Object value;
-	private Point point;
-
-	public Cell() {
-		value = DEFAULT_CELL_VALUE;
-		point = DEFAULT_CELL_POINT;
-	}
+	
 	
 	public Cell(Object value, Point point) {
 		this.value = value;
